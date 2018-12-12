@@ -1,0 +1,251 @@
+@font-face {
+    font-family: felipa;
+    src: url("C:/Users/Tom/Downloads/felipa (1)/felipa/Felipa-Regular.ttf");
+ }
+ body{
+ 	font-family: felipa;
+	font-size: 280%;
+	color: black;
+	background: url("C:/Users/Tom/Desktop/WebPages/Greek_recipes_project/images/background2.jpg") no-repeat;
+	background-size: 100% 100%;
+}
+
+header{
+	font-size: 120%;
+	font-weight: bold;
+	text-align: center;
+	width:100%;
+}
+
+.details {
+	left: 60%;
+	top: 9rem;
+	position: relative;
+	text-transform: uppercase;
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 50%;
+	display: inline-block;
+	margin-right: 5%;
+	margin-left: -7%;
+	background-color: #ccc;
+	opacity: .7;
+
+}
+
+#prep{
+	position: relative;
+	top: 1.5rem;
+}
+
+#serves{
+	position: relative;
+	width: 10%;
+	top: 3px;
+	
+}
+
+
+.details p{
+	margin: 10px;
+	display: inline-block;
+}
+
+.container{
+	margin: 0;
+	padding: 0;
+}
+
+.img-thumbnail{
+	width: 40%;
+	margin-top: 25%;
+}
+
+h4{
+	float: right;
+	width: 50%;
+	position: relative;
+	bottom: 333px;
+	font-weight: bold;
+	background-color: #ccc;
+	opacity: .7;
+}
+ .box-1{
+	width: 40%;
+	font-size: 70%;
+}
+
+.container-1{
+	display: flex;
+	justify-content:center;
+	background-color: #ccc;
+    opacity: .8;
+    font-weight:bolder;
+}
+
+footer{
+	font-size: 18px;
+	color: black;
+	position: relative;
+}
+ 
+
+@media(max-width: 525px){
+	body {
+   background:url("C:/Users/Tom/Desktop/WebPages/Greek_recipes_project/images/background2.jpg");
+  background-size:100% 40%;
+}
+
+
+
+.img-thumbnail{
+	width: 95%;
+	position: relative;
+	left: 1%;
+ }
+
+ h4{
+ 	position: relative;
+ 	background-color: #ccc;
+ 	opacity: .7;
+ 	bottom: 15px;
+ 	left: 1%;
+ 	width: 95%;
+ 	font-family: felipa;
+ 	margin-right: 5%;
+ 	font-weight: bold;
+ 	display: inline-block;
+}
+
+ 
+
+ .details{
+  position: relative;
+  top: 10px;
+  margin: 0;
+  padding: 0;
+  left: 8%;
+  float: left;
+  font-size: 20%;
+  display: inline-block;
+ }
+
+ .details p{
+ 	position: relative;
+ 	margin: 20px;
+ 
+ }
+
+#prep{
+	top: 5px;
+}
+
+ #serves{
+ 	width: 11%;
+ 	position: relative;
+ 	top: 5px;
+ }
+
+ .details img
+ {
+ 	top: 30px;
+ }
+
+  .container-1 , .box-1{ 
+   display: block;
+   width: 100%;
+   background-color: #ccc;
+   opacity: .8;
+   font-weight:bolder;
+ }
+
+
+ footer{
+	font-size: 16px;
+	color: black;
+	position: relative;
+	margin-bottom: : 40px;
+
+}
+}
+
+@media screen and (min-width: 526px)and (max-width: 992px){
+
+	body {
+   background:url("C:/Users/Tom/Desktop/WebPages/Greek_recipes_project/images/background2.jpg") no-repeat;
+  background-size:110% 125%;
+}
+
+header{
+	text-align: center;
+	font-size: 40px;
+}
+
+.container{
+	display: inline-block;
+	width: 110%;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	top: 80px;
+}
+
+
+.img-thumbnail{
+	width: 42%;
+	position: relative;
+	right: -2%;
+ }
+
+
+ h4{
+ 	position: relative;
+ 	bottom: 230px;
+ 	right: 10%;
+ 	width: 40%;
+ 	font-family: felipa;
+ 	margin-right: 2%;
+ 	font-weight: bold;
+ 	background-color: #ccc;
+ 	opacity: 0.7;
+ 	float: right;
+
+}
+
+
+ .details{
+  position: relative;
+  top: 80px;
+  margin: 0;
+  padding: 3%;
+  left: 20%;
+  font-size: 40%;
+  display: inline;
+ }
+
+ .details p{
+ 	position: relative;
+ 	margin: 20px;
+ 
+ }
+
+#prep{
+	top: 10px;
+}
+
+#serves{
+ 	width: 7%;
+ 	position: relative;
+ 	top: 3px;
+ }
+
+ .details img
+ {
+ 	top: 30px;
+ }
+
+ footer{
+	font-size: 18px;
+	color: black;
+	position: relative;
+}
+}

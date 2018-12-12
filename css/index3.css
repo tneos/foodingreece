@@ -1,0 +1,79 @@
+html, body{
+	height: 100%;
+	width: 100%;
+	font-family: felipa;
+}
+
+@font-face {
+    font-family: felipa;
+    src: url("C:/Users/Tom/Downloads/felipa (1)/felipa/Felipa-Regular.ttf");
+}
+.navbar{
+	position: relative;
+	background-color: #d9edf7;
+	padding: 1em;
+	margin-top: 0;
+	font-size: 1.1em;
+	font-family: felipa;
+}
+
+
+
+.navbar li a{
+	width: 13em;
+	margin: 2px;
+	padding: 0;
+	left: 80%;
+
+}
+
+.dropdown-menu{
+	width: 8em;
+	margin-left: 120px;
+}
+
+.dropdown-item{
+	display: block;
+	height: 2em;
+}
+
+.dropdown:hover>.dropdown-menu{
+	display: block;
+	background-color: #d9edf7;
+	width: 55%;
+}
+
+
+header{
+	color: white;
+	background-color:  #00bcd4;
+	font-size: 2em;
+    padding: 1% 0;
+    text-align: center;
+}
+
+.navbar-default .navbar-nav li a:hover, .navbar-default .navbar-nav li a:active{
+	color: #fff;
+}
+
+h2{
+	text-align: center;
+	padding-top: .5em;
+}
+
+.padding{
+	margin-top:10em;
+}
+
+img{
+	width: 100%;
+	padding: 5%;
+}
+
+.container-fluid a{
+	margin: 1.5em;
+}
+
+.btn{
+	box-shadow:  2px 3px 10px rgba(104, 104, 104, 0.8);
+}

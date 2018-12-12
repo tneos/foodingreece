@@ -1,0 +1,13 @@
+@font-face {
+    font-family: felipa;
+    src: url("C:/Users/Tom/Downloads/felipa (1)/felipa/Felipa-Regular.ttf");
+}
+body{
+	font-family: felipa;
+	font-size: 220%;
+	background-color: #ccc;
+}
+
+.message{
+	margin-left: 100px;
+}
